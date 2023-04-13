@@ -1,0 +1,27 @@
+body{width:1300px;height: auto;text-align: center;margin-left: auto;margin-right: auto;background-color: rgb(226, 226, 226);opacity: 0.95;}
+
+footer div{box-sizing: border-box;background-color: #d30000;height: 70px;
+    margin-top: -1px;border-top:solid 1px;border-color: black;padding-top:21px;position: relative}
+
+    
+h1{color: #D30000;font-size: 2.5em;border-bottom: #D30000 solid thin;padding-bottom: 7px;}
+h2{font-size: 1.75em;background-color: #D30000;color: #fff;letter-spacing: 0.1em;padding: 7px;width: 300px;position: relative;left: 340px;}
+p{font-size: 1.1em;line-height: 1.3em;text-align: center;}
+h2+p:first-line{font-size: 1.17em;font-variant: small-caps;font-weight: bolder;font-style: italic;}
+hr{border-color: #D30000;border: solid thin #D30000;}
+
+#links1{box-sizing: border-box;background-color: #fef;height: 50px;padding-top: 10px;width:auto;
+    margin-top: -8px;border-bottom: #997 solid 1px;text-align: end;padding-right: 12px;margin-bottom: -4px;}
+
+
+
+.navbar {box-shadow: 0px 5px 10px 0px #aaa;position:relative;width: 100%;background: rgb(211, 0, 0);color:#000;
+    opacity:0.85;height: 70px;}
+
+.navbar {opacity: 0.95;}
+
+#quemsomos{width: 1000px;margin-left: auto;margin-right: auto;background-color:#fff;opacity: 1;height: auto;}
+
+.footer{font-family: Georgia, 'Times New Roman', Times, serif;color: #fef;}
+
+.feed-body-n{width: 1000px;margin-left: auto;margin-right: auto;background-color:#fff;opacity: 1;height: 700px;margin-bottom: -200px;}
