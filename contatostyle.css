@@ -1,14 +1,16 @@
 #body{
     width: 1200px;
     height: 1200px;
+    margin-bottom: 150px;
 }
 #body2{
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 150px;
 }
 #formulario{
     height: 250px;
@@ -20,13 +22,11 @@
     height: 250px;
     padding: 25px;
 }
-    .Icon{
+     .Icon{ /*imagens */
     padding: 5px;
     }
-    p{
-      margin-bottom: 1.8px;
-      margin-top:1px;
-      padding-bottom: 2px;
+    #P{ /*textos*/ 
+     
     }
   /* Estilos para o formulário */
     form {
