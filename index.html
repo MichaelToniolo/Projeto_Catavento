@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <title>JEIA</title>
+    <style>        
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .botao-descer:hover {
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
     <div class = "menu"></div>
         <header>
             <ul>
-                <a href="index.html"><input class="botao" type="button" value="logo"></a>
-                <a href="quemsomos.html"><input class="botao" type="button" value="Quem somos"></a>
-                <a href="contato.html"><input class ="botao"type="button" value="entre em contato conosco"></a>
+                <a href="#"><li>Logo</li></a>
+                <a href="#"><li>Quem somos</li></a>
+                <a href="#"><li>Contato</li></a>
             </ul>
         </header>
     </div>
@@ -30,6 +48,12 @@
             </nav>
             <p>© 2022 Copyright - </p>
         </footer>
+    </div>
+    <div>
+        <a href="denunciar.html"><button>DENÚNCIE</button></a>
+    </div>
+    <div>
+        <a href="https://web.whatsapp.com/" class="whatsapp"><button>Whatssap</button></a>
     </div>
 </body>
 </html>
