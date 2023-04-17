@@ -1,32 +1,31 @@
 #body{
     width: 1200px;
     height: 1200px;
-    margin-bottom: 150px;
+    margin-bottom: 150px; 
 }
 #body2{
-    width: 800px;
-    height: 800px;
-    position: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 250px;
-    margin-bottom: 150px;
+     width: 1100px; 
+    height: 850px;
+    justify-content: center; 
+    margin-left: 350px;
+     margin-top: 80px; /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */
 }
 #formulario{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 550px;
     padding: 5px;
+    float: left ;
 }
 #maps{
-    width: 250px;
-    height: 250px;
+    width: 420px;
+    height: 300px;
     padding: 25px;
+    float: right;
 }
      .Icon{ /*imagens */
-    padding: 5px;
+    padding: 3px;
     }
     #P{ /*textos*/ 
-     
     }
   /* Estilos para o formulário */
     form {
