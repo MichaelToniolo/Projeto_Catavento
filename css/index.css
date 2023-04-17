@@ -12,15 +12,15 @@ flex-direction:column;
 font-family:Montserrat, sans-serif;
 font-size: 1em;
 font-weight:300;
-margin: auto;
+margin:0;
 min-height:100vh;
 }
 
 nav {
-	margin: auto;
-	width: 100%;
+	margin: 0;
+	max-width: 100%;
 	background: #0090ea00;
-	box-shadow:0 3px 15px rgba(0, 0, 0, 0.064);
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
     z-index:1;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 
 nav ul li a {
 	display: block;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(0, 0, 0, 0.9);
 	text-decoration: none;
 	padding: 1rem 2rem;
 	border-top: 2px solid transparent;
@@ -51,7 +51,7 @@ nav ul li a {
 	transition: all .3s ease-in-out;
 }
 
-nav ul li a[href="#1"]:hover,nav ul li a[href="#2"]:hover,
+nav ul li a:hover,
 nav ul li a:focus {
 	background: rgba(0, 0, 0, 0.357);
 }
@@ -87,18 +87,4 @@ text-decoration:none;
 }
 .logo{
     width: 80px;
-}
-
-.container{
-	position: relative;
-}
-
-.menu{
-	position: absolute;
-	z-index: 1;
-}
-
-.slide{
-	position: absolute;
-	z-index: -1;
 }
