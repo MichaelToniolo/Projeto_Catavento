@@ -101,22 +101,24 @@ img {vertical-align: middle;}
 
 
 .btn{
-  background:rgb(0, 153, 255); 
-  max-width: 100px;
+  background:rgb(255, 221, 0); 
   color: #fff;
   cursor: pointer;
   font-size: 14px;
   border-radius: 3px;
-  width: 100%;
+  width: 250px;
+  height: 50px;
   padding: 10px;
   border: none;
   outline: none;
   box-shadow: none;
-  margin-left: 130px;
-  margin-top: 35px;
+  z-index: 1;
+  position: absolute;
+  margin-left: -820px;
+  margin-top: 600px;
 }
 
 .btn:hover{
-  background-color:rgb(1, 104, 173);
+  background-color:rgb(188, 164, 4); 
   transition: all 0.5s;
 }
