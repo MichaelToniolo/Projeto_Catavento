@@ -12,19 +12,23 @@ h2+p:first-line{font-size: 1.17em;font-variant: small-caps;font-weight: bolder;f
 hr{border-color: #006dd3bd;border: solid thin #006dd3bd;}
 figure a img{width: 37px;height: 36px;}
 
+#logo{width: 70px;height: 70px;position: relative;float: left;}
+
 ._{width:auto;margin-left: auto;margin-right: auto;background-color:#fff;opacity: 1;height:15px;margin-bottom:-33px;}
 
 #borda{box-sizing: border-box;background-color: #fef;height: 20px;padding-top: 10px;width:auto;
     margin-top: -8px;border-bottom: #997 solid 1px;text-align: end;padding-right: 12px;margin-bottom: -1px;}
 
 #index{border: solid rgba(0, 0, 0, 0.418) 1px;color: #333;text-decoration: none;border-radius: 10px;
-    background-color: #aaaaaa69;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.178);padding: 4px 15px;margin: 20px 0;position: absolute;top: -8px;right:80px}
+    background-color: #aaaaaa69;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.178);padding: 4px 15px;position: relative;float: left;margin-right: 1%;margin-left: 1%;margin-top: 1%;}
+#contato{border: solid rgba(0, 0, 0, 0.418) 1px;color: #333;text-decoration: none;border-radius: 10px;
+        background-color: #aaaaaa69;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.178);padding: 4px 15px;position: relative;float: left;margin-top: 1%;}
 
 .navbar {width: 100%;background: #006dd3bd;color:#000;position:sticky;
     opacity:0.95;height: 70px;}
-#quemsomos{width:fit-content;background-color:#fff;opacity: 1;height: auto;position: relative;margin-left: 7%;}
+#quemsomos{width:fit-content;background-color:#fff;opacity: 1;height: auto;position: relative;margin-left: 5%;margin-right: 5%;}
 
 
-.footer{font-family: Georgia, 'Times New Roman', Times, serif;color: #fef;margin-bottom: 0;margin-top: 0;}
+.footer{font-family: Georgia, 'Times New Roman', Times, serif;color: #fef;border: 0;margin-bottom: 0;padding-bottom: 2%;}
 
 .feed-body-n{width: fit-content;margin-left: auto;margin-right: auto;background-color:#fff;opacity: 1;height: 700px;margin-bottom: -200px;}
