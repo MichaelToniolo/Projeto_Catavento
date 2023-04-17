@@ -1,138 +1,120 @@
-#body{
+#body {
     width: 1200px;
     height: 1200px;
     margin-bottom: 150px;
-    font-family: Arial Rounded MT;
 }
-#body2{
-    width: 800px;
-    height: 800px;
-    position: center;
-    display: flex;
+
+#body2 {
+    width: 1100px;
+    height: 850px;
     justify-content: center;
-    margin-left: 250px;
-    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-top: 80px;
+    /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */
 }
-#formulario{
-    height: 250px;
-    width: 250px;
+
+#formulario {
+    height: 350px;
+    width: 400px;
     padding: 5px;
+    float: left;
 }
-#maps{
-    width: 250px;
-    height: 250px;
-    padding: 25px;
+
+#maps {
+
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    float: right;
 }
-     .Icon{ /*imagens */
+
+#maps ul{
+    list-style: none;
     padding: 5px;
-    }
-    #P{ /*textos*/ 
-     
-    }
-  /* Estilos para o formulário */
-    form {
-        margin: 20px auto;
-        width: 80%;
-        max-width: 500px;
-        font-family: Arial Rounded MT;
-    }
+    margin: 5px;
+}
 
-    label {
-        display: block;
-        margin-bottom: 5px;
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
+#maps img{
+    margin-right: 10px;
+}
 
-    textarea {
-        resize: vertical;
-        min-height: 100px;
-    }
+#mapa{
+    margin-top: 30px;
+    height: 200px;
+}
 
-    input[type="submit"] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
+.Icon {
+    /*imagens */
+    padding: 3px;
 
-    input[type="submit"]:hover {
-        background-color: #45a049;
-    }
+}
 
-    /* Estilos para as mensagens de erro */
-    input:invalid,
-    textarea:invalid {
-        border-color: #d50000;
-    }
+#P {
+    /*textos*/
+}
 
-    input:valid,
-    textarea:valid {
-        border-color: #ccc;
-    }
+/* Estilos para o formulário */
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+}
 
-    input:invalid + span,
-    textarea:invalid + span {
-        color: #430b8d;
-        font-size: 12px;
-    }
+label {
+    display: block;
+    margin-bottom: 5px;
+}
 
-    input:valid + span,
-    textarea:valid + span {
-        display: none;
-    }
-    /* CSS do botao da pagina contato */
-    button {
-        display: inline-block;
-        border-radius: 4px;
-        background-color: #f4511e;
-        border: none;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-      }
-      
-      button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      
-      button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      
-      button:hover span {
-        padding-right: 25px;
-      }
-      
-      button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-      div#maps{
-        float: left;
-      }
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para as mensagens de erro */
+input:invalid,
+textarea:invalid {
+    border-color: #d50000;
+}
+
+input:valid,
+textarea:valid {
+    border-color: #ccc;
+}
+
+input:invalid+span,
+textarea:invalid+span {
+    color: #430b8d;
+    font-size: 12px;
+}
+
+input:valid+span,
+textarea:valid+span {
+    display: none;
+}
