@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/slide.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>JEIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#" ><img src="./img/logo.png" class="logo"></a></li>
+                <li><a href="#1">Quem somos</a></li>
+                <li><a href="#2">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./img/teste.jpg" style="width:100%">
+                <!-- <input class="teste" type="submit" value="Teste JS" id="btn"> -->
+                <div class="text">Saiba Menos</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste2.jpg" style="width:100%">
+                <div class="text">Saiba Menos</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste3.jpg" style="width:100%">
+                <div class="text">Saiba Mais</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </header>
+
+<!-- Script JS do Slide -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+    </body>
+</html>
