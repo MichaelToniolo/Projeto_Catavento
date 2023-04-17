@@ -1,99 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <script src="js/js.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/css2.css">
-    <style>
-        @import url('http://db.onlinewebfonts.com/c/89d11a443c316da80dcb8f5e1f63c86e?family=Bauhaus+93');
-    </style>
-    <style>
-        @import url('http://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-    </style>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="icon" type="image/png" sizes="5x10" href="./images/logo1.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sobre mim</title>
-</head>
-<body>
-    <header>
-        <input type="checkbox" id="check">
-        <label for="check">
-            <i class="fa fa-lg fa-bars" id="btn"></i>
-            <i class="fa fa-lg fa-times" id="cancelar"></i>
-        </label>
-        <div class="sidebar">
-            <header class="head">Projeto Final</header>
-            <a href="#" class="active">
-                <i class="fa fa-question-circle"></i>
-                <span>Quem sou eu?</span>
-            </a>
-            <a href="formacao.html">
-                <i class="fa fa-graduation-cap"></i>
-                <span>Formações</span>
-            </a>
-            <a href="experiencia.html">
-                <i class="fa fa-book"></i>
-                <span>Experiências</span>
-            </a>
-            <a href="projeto.html">
-                <i class="fa fa-file"></i>
-                <span>Projetos</span>
-            </a>
-            <a href="contato.html">
-                <i class="fa fa-envelope"></i>
-                <span>Contato</span>
-            </a>
-        </div>
-    </header>
-    <div class="paralax-eu">
-        <h3>Quem sou eu?</h3>
-    </div>
-    <div class="conteudo">
-        <h1>Sobre mim</h1>
-        <h2>Guilherme, 2022</h2>
-    </div>
-    <p class="euzin">
-        <img src="img/eu.png" class="eu">
-        Me chamo Guilherme Henrique de Carvalho, nasci no dia 30/06/2003. Tenho 19 anos, nascido e criado na cidade de Ribeirão Preto - SP 
-        Sou técnico em Desenvolvimento de Sistemas, formado pela instituição ETEC José Martimiano da Silva. Me formei em 2021. Me apaixonei pela
-        área de T.I., e meu objetivo é conseguir absover o máximo possível da área, conseguir aprender tudo o que estiver ao meu alcance. Temho
-        sonho de um dia ser um grande desenvolvedor, poder criar e desenvolver coisas incríveis, tenho um sonho de um dia revolucionar a área tecnológica, 
-        e espero um dia conseguir.
-        Me considero uma pessoa bem organizada, dedicada e adaptável. Me dou muito bem trabalhando em equipe, sou muito criativo
-        e bastante comunicativo também.
-        Atualmente estou trabalhando como suporte técnico na empresa TOTVS, e também estou fazendo um curso técnico em informática no SENAC ............ 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus aliquid id reprehenderit explicabo minima nemo, ducimus illum perferendis, 
-        quos assumenda eligendi aperiam? Sint recusandae, nemo labore beatae suscipit ratione nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptatum fugit aspernatur, dolores tempore culpa iure commodi magnam asperiores doloremque temporibus quae ratione molestiae et ad possimus consectetur 
-        accusamus dolor quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur labore explicabo officia nulla natus ut praesentium vitae minus
-        doloremque itaque temporibus, omnis esse maxime accusantium autem blanditiis dolore hic neque!
-    </p>
-    <footer>
-        <input class="teste" type="submit" value="Teste JS" id="btn" onclick="identificacao();"   onmouseover="btn();" onmouseout="padrao()">
-        <nav class="btn_social">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/slide.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>JEIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav class="menu">
             <ul>
-                <li><a href="#" target="_blank" title="facebook"><i class="icon icon-facebook"></i></a><img
-                        class="icone" src="img/facebook.png"></li>
-                <li><a href="#" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a><img
-                        class="icone" src="img/instagram.png"></li>
-                <li><a href="#" target="_blank" title="youtube"><i class="icon icon-whatsapp"></i></a><img class="icone"
-                        src="img/linkedin.png"></li>
-                <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a><img class="icone"
-                        src="img/whats.png"></li>
+                <li><a href="#" ><img src="./img/logo.png" class="logo"></a></li>
+                <li><a href="#1">Quem somos</a></li>
+                <li><a href="#2">Contato</a></li>
             </ul>
         </nav>
-        <p>© 2022 Copyright - Guilherme Carvalho</p>
-    </footer>
-</body>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./img/teste.jpg" style="width:100%">
+                <input class="teste" type="submit" value="Teste JS" id="btn">
+                <div class="text">Saiba Menos</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste2.jpg" style="width:100%">
+                <div class="text">Saiba Menos</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste3.jpg" style="width:100%">
+                <div class="text">Saiba Mais</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </header>
 
+<!-- Script JS do Slide -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+    </body>
 </html>
