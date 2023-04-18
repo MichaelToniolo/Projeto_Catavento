@@ -2,15 +2,96 @@
     width: 1200px;
     height: 1200px;
     margin-bottom: 150px;
+    background-color: #039be7;
+    
+}
+
+
+nav {
+	margin: auto;
+	width: 100%;
+	background: #0090ea00;
+	box-shadow:0 3px 15px rgba(0, 0, 0, 0.064);
+    z-index:1;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a[href="#1"]:hover,nav ul li a[href="#2"]:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, 0.357);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav ul li a[href="#1"]{
+    margin-left: 900px;
+}
+
+nav ul li a[href="#1"], nav ul li a[href="#2"]{
+    margin-top: 30px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.container{
+	position: relative;
+}
+
+.menu{
+	position: absolute;
+	z-index: 1;
+}
+
+.slide{
+	position: absolute;
+	z-index: -1;
 }
 
 #body2 {
-    width: 1100px;
+    width: 900px;
     height: 850px;
     justify-content: center;
     margin-left: 150px;
-    margin-top: 80px;
+    margin-top: 100px;
     /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */
+    background-color: #039be7;
+
+
 }
 
 #formulario {
@@ -18,11 +99,14 @@
     width: 400px;
     padding: 5px;
     float: left;
+    margin-top: 100px;
 }
 
 #maps {
 
-    width: 600px;
+    margin-top: 120px;
+
+    width: 400px;
     height: 300px;
     padding: 10px;
     float: right;
