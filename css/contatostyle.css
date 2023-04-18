@@ -1,8 +1,9 @@
-#body {
+body {
     width: 1200px;
     height: 1200px;
     margin-bottom: 150px;
-    background-color: #039be7;
+    margin-top: 0;
+    background-color: #db7406;
     
 }
 
@@ -87,7 +88,8 @@ nav ul li a[href="#1"], nav ul li a[href="#2"]{
     height: 850px;
     justify-content: center;
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 0;
+
     /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */
     background-color: #039be7;
 
@@ -182,23 +184,31 @@ input[type="submit"]:hover {
 }
 
 /* Estilos para as mensagens de erro */
-input:invalid,
+/* input:invalid,
 textarea:invalid {
     border-color: #d50000;
-}
+} */
 
 input:valid,
 textarea:valid {
-    border-color: #ccc;
+    border-color: #cccccc;
 }
 
 input:invalid+span,
 textarea:invalid+span {
-    color: #430b8d;
+    color: #fb9611;
     font-size: 12px;
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 input:valid+span,
 textarea:valid+span {
     display: none;
+}
+
+textarea[type="text"] {
+    border-color: #d50000;
 }
