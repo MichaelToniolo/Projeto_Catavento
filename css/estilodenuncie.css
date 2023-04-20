@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+body {-moz-osx-font-smoothing:grayscale;
+    -ms-flex-direction:column;
+    -webkit-box-direction:normal;
+    -webkit-box-orient:vertical;
+    -webkit-font-smoothing:antialiased;
+    color:#000000;display:flex;
+    flex-direction:column;
+    margin:0;min-height:100vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: small;
+    background-color: #FFF;}
+
+h3{font-size: 1.75em;
+    background-color: #006dd3bd;
+    color: #fff;letter-spacing: 0.1em;
+    padding: 7px;width: 300px;
+    position: relative;
+    margin-top: -7px;}
+
+hr{border-color: #006dd3bd;
+    border: solid 2px #006dd3bd;
+    width: -webkit-fill-available;}
+
+#denuncietext{width: 50%;
+    color: #006dd3bd;
+    font-size: 2.5em;
+    text-align: center;}
+
+#corpo{width: auto;margin-left: 5%;margin-right: 5%;}
