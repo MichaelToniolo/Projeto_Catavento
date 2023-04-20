@@ -1,8 +1,4 @@
 * {box-sizing: border-box}
-body {
-   background-color: #19585a00;
-  }
-
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -67,12 +63,18 @@ img {vertical-align: middle;}
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #000000;
+  margin: 0 5px;
+  background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+.bolinha{
+  position: absolute;
   z-index: 1;
+  margin-left: 681px;
+  margin-top: 757px;
 }
 
 .active, .dot:hover {
@@ -121,4 +123,9 @@ img {vertical-align: middle;}
 .btn:hover{
   background-color:rgb(188, 164, 4); 
   transition: all 0.5s;
+}
+
+.slide{
+	position: absolute;
+	z-index: -1;
 }

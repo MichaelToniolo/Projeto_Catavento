@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/slide.css">
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/cssglobal.css">
         <title>JEIA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -13,8 +14,8 @@
         <nav class="menu">
             <ul>
                 <li><a href="#" ><img src="./img/logo.png" class="logo"></a></li>
-                <li><a href="quemsomos.html">Quem somos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="#1">Quem somos</a></li>
+                <li><a href="#2">Contato</a></li>
             </ul>
         </nav>
         <div class="slideshow-container">
@@ -34,12 +35,32 @@
             <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
         <br>
-        <div style="text-align:center">
+        <div style="text-align:center" class="bolinha">
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
     </header>
+
+    <div class="conteudo">
+        <section class="page-section" id="info" > 
+            <div>
+              <h3><p class="txt" id="texinfo">JEIA</p></h3>
+              <div class="blocotexto">
+                <p class="paragrafo">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptas maxime iure cupiditate 
+                    quisquam doloremque porro voluptates reprehenderit eum, enim voluptatibus pariatur? Eaque delectus adipisci 
+                    nostrum eveniet distinctio officiis dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                    earum autem architecto nisi inventore consequuntur expedita nulla natus eum perspiciatis laudantium maxime veritatis
+                    illo officia commodi, soluta minima sed omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+                    dolor placeat incidunt harum sit, quam quisquam at error iusto natus tenetur quibusdam culpa voluptatibus fugiat
+                    molestias repellat magnam vero soluta.
+                </p>
+                <hr>
+              </div>
+           </div>
+          </section>
+    </div>
 
 <!-- Script JS do Slide -->
     <script>

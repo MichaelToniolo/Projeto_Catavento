@@ -1,0 +1,81 @@
+nav {
+	margin: auto;
+	width: 100%;
+	background: #0090ea00;
+    z-index:1;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a[href="#1"]:hover,nav ul li a[href="#2"]:hover,
+nav ul li a[href="#1"]:focus,nav ul li a[href="#2"]:focus {
+	background: rgba(0, 0, 0, 0.357);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav ul li a[href="#1"]{
+    margin-left: 900px;
+}
+
+nav ul li a[href="#1"], nav ul li a[href="#2"]{
+    margin-top: 30px;
+}
+
+footer {
+	color: #555;
+	font-size:12px;
+	margin-top:5em;
+	text-align:center;
+}
+
+footer a {
+	color:#0090ea00;
+	text-decoration:none;
+}
+
+.logo{
+	width: 80px;
+}
+	
+.container{
+	position: relative;
+}
+	
+.menu{
+	position: absolute;
+	z-index: 1;
+}
+	
