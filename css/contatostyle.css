@@ -3,7 +3,7 @@ body {
     height: 1200px;
     margin-bottom: 150px;
     margin-top: 0;
-    background-color: #db7406;
+    background-color: #FFFF;
     
 }
 
@@ -14,6 +14,10 @@ nav {
 	background: #0090ea00;
 	box-shadow:0 3px 15px rgba(0, 0, 0, 0.064);
     z-index:1;
+}
+
+#menu{
+padding-bottom: 5px;
 }
 
 nav::after {
@@ -89,7 +93,7 @@ nav ul li a[href="#1"], nav ul li a[href="#2"]{
     justify-content: center;
     margin-left: 150px;
     margin-top: 0;
-
+    
     /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */
     background-color: #039be7;
 
