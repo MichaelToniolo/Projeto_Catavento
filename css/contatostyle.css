@@ -3,8 +3,15 @@ body {
     height: 750px;
     margin-bottom: 150px;
     margin-top: 0;
-    background-color: #FFFF;
+    background-color: rgb(185, 190, 183);
     
+}
+
+#mapa{margin-right: 0%;
+    float: right;
+    width: 527px;
+    height: 300px;
+    margin-top: -299px;
 }
 
 nav {
@@ -107,8 +114,8 @@ nav ul li a[href="#1"], nav ul li a[href="#2"]{
 
 #maps {
 
-    margin-top: 120px;
-
+    margin-top: 86px;
+    margin-right: 679px;
     width: 400px;
     height: 300px;
     padding: 10px;
@@ -120,15 +127,17 @@ nav ul li a[href="#1"], nav ul li a[href="#2"]{
     padding: 5px;
     margin: 5px;
 }
+#maps ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
 
 #maps img{
     margin-right: 10px;
 }
 
-#mapa{
-    margin-top: 30px;
-    height: 200px;
-}
+
 
 .Icon {
     /*imagens */
