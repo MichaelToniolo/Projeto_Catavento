@@ -1,7 +1,15 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
 
 
 /* Slideshow container */
@@ -61,24 +69,24 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 5px;
+  height: 3px;
+  width: 30px;
+  margin: 0 10px;
   background-color: #ffffff;
-  border-radius: 50%;
   display: inline-block;
+  border-radius: 2px;
   transition: background-color 0.6s ease;
 }
 
 .bolinha{
   position: absolute;
   z-index: 1;
-  margin-left: 681px;
-  margin-top: 757px;
+  margin-left: 41%;
+  margin-top: 54%;
 }
 
 .active, .dot:hover {
-  background-color: #ffffff;
+  background-color: #7c0303;
 }
 
 .active{
@@ -88,7 +96,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
@@ -101,24 +109,41 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+.btn1{
+  background:rgb(255, 221, 0);
+}
+.btn2{
+  background-color: rgb(175, 0, 0);
+}
 
-.btn{
-  background:rgb(255, 221, 0); 
+.btn3{
+  background-color: rgb(2, 0, 145);
+}
+
+.btn4{
+  background-color: rgb(255, 145, 0);
+}
+
+.btn5{
+  background-color: rgb(0, 153, 8);
+}
+.btn{ 
   color: #fff;
   cursor: pointer;
   font-size: 14px;
   border-radius: 3px;
-  width: 250px;
-  height: 50px;
+  width: 350px;
+  height: 70px;
   padding: 10px;
   border: none;
   outline: none;
   box-shadow: none;
   z-index: 1;
   position: absolute;
-  margin-left: -820px;
-  margin-top: 600px;
+  margin-left: -62%;
+  margin-top: 40%;
 }
+
 
 .btn:hover{
   background-color:rgb(188, 164, 4); 
@@ -128,4 +153,9 @@ img {vertical-align: middle;}
 .slide{
 	position: absolute;
 	z-index: -1;
+}
+
+.image{
+  width: 100%;
+  
 }

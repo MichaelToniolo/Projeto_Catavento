@@ -1,3 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+body{
+	font-family:Montserrat, sans-serif;
+}
+
+
+.menuCont{
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+	color: black;
+	margin-bottom: 250px;
+	background-color: #1d353ea6;
+	font-size: 17px;
+}
+
+
 nav {
 	margin: auto;
 	width: 100%;
@@ -29,12 +45,17 @@ nav ul li a {
 	padding: 1rem 2rem;
 	border-top: 2px solid transparent;
 	border-bottom: 2px solid transparent;
-	transition: all .3s ease-in-out;
+	
 }
 
-nav ul li a[href="quemsomos.html"]:hover,nav ul li a[href="quemsomos.html"]:hover,
-nav ul li a[href="contato.html"]:focus,nav ul li a[href="contato.html"]:focus {
+nav ul li a[href="quemsomos.html"]:hover,
+nav ul li a[href="contato.html"]:hover,
+nav ul li a[href="denuncie.html"]:hover,
+nav ul li a[href="quemsomos.html"]:focus, 
+nav ul li a[href="contato.html"]:focus,
+nav ul li a[href="denuncie.html"]:focus{
 	background: rgba(0, 0, 0, 0.357);
+	transition: all .3s ease-in-out;
 }
 
 nav ul li a:focus {
@@ -47,10 +68,12 @@ nav ul li a:not(:only-child)::after {
 }
 
 nav ul li a[href="quemsomos.html"]{
-    margin-left: 900px;
+    margin-left: 800px;
 }
 
-nav ul li a[href="quemsomos.html"], nav ul li a[href="contato.html"]{
+nav ul li a[href="quemsomos.html"], 
+nav ul li a[href="contato.html"], 
+nav ul li a[href="denuncie.html"]{
     margin-top: 30px;
 }
 
@@ -68,6 +91,7 @@ footer a {
 
 .logo{
 	width: 80px;
+	margin-top: 10px;
 }
 	
 .container{
@@ -79,3 +103,4 @@ footer a {
 	z-index: 1;
 }
 	
+

@@ -13,23 +13,32 @@
     <body>
         <nav class="menu">
             <ul>
-                <li><a href="#" ><img src="./img/logo.png" class="logo"></a></li>
+                <li><a href="index.html" ><img src="./img/logo.png" class="logo"></a></li>
                 <li><a href="quemsomos.html">Quem somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                <li><a href="denuncie.html">Denuncie</a></li>
             </ul>
         </nav>
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <img src="./img/teste.jpg" style="width:100%">
-                <input class="btn" type="submit" value="Teste" id="btn">
+                <img src="./img/teste.jpg" class="image">
+                <input class="btn1 btn" type="submit" value="SAIBA MAIS" id="btn">
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste3.jpg" style="width:100%">
-                <input class="btn" type="submit" value="Teste" id="btn">
+                <img src="./img/teste2.png" class="image">
+                <input class="btn2 btn" type="submit" value="SAIBA MAIS" id="btn">
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste.jpg" style="width:100%">
-                <input class="btn" type="submit" value="Teste" id="btn">
+                <img src="./img/teste3.jpg" class="image">
+                <input class="btn3 btn" type="submit" value="SAIBA MAIS" id="btn">
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste4.jpg" class="image">
+                <input class="btn4 btn" type="submit" value="SAIBA MAIS" id="btn">
+            </div>
+            <div class="mySlides fade">
+                <img src="./img/teste.jpg" class="image">
+                <input class="btn5 btn" type="submit" value="SAIBA MAIS" id="btn">
             </div>
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
@@ -39,6 +48,8 @@
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
     </header>
 
@@ -85,7 +96,7 @@
             slides[i].style.display = "none";  
         }
         for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
+            dots[i].className = dots[i].className.replace("active", "");
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
