@@ -14,18 +14,17 @@
     height: 350px;
     width: 550px;
     padding: 5px;
+    position:center;
     float: left ;
 }
 #maps{
-    width: 420px;
+    width: 65%;
     height: 300px;
     padding: 25px;
     float: right;
 }
      .Icon{ /*imagens */
     padding: 3px;
-    }
-    #P{ /*textos*/ 
     }
   /* Estilos para o formulário */
     form {
