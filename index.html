@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/slide.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/cssglobal.css">
+        <link rel="stylesheet" href="./css/acessibilidade_voz.css">
         <title>JEIA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -52,7 +53,12 @@
             <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
     </header>
+    <div id="texto">
+        <div id="leitura_alta">
+            <p>LEITURA EM VOZ ALTA</p>
+            <button id="toggle-button">ON</button>
 
+        </div>
     <div class="conteudo">
         <section class="page-section" id="info" > 
             <div>
@@ -72,7 +78,7 @@
            </div>
           </section>
     </div>
-
+    </div>
     <footer>
         <a href="index.html" ><img src="./img/logo.png" class="logoPe" ></a>
         <nav class="btn_social">
@@ -86,7 +92,8 @@
         </nav>
         <p>© 2023 Copyright - TI 27</p>
     </footer>
-
+    <!-- script acessibilidade de voz -->
+    <script src="./js/acessibilidade_voz.js"></script>
 <!-- Script JS do Slide -->
     <script>
         let slideIndex = 1;
