@@ -14,31 +14,31 @@ body{
 }
 
 
-nav {
+.menu {
 	margin: auto;
 	width: 100%;
 	background: #0090ea00;
     z-index:1;
 }
 
-nav::after {
+.menu::after {
 	display: block;
 	content: '';
 	clear: both;
 }
 
-nav ul {
+.itensmenu {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-nav ul li {
+.itensmenu li {
 	float: left;
 	position: relative;
 }
 
-nav ul li a {
+.listamenu {
 	display: block;
 	color: rgba(255, 255, 255, 0.9);
 	text-decoration: none;
@@ -48,50 +48,30 @@ nav ul li a {
 	
 }
 
-nav ul li a[href="quemsomos.html"]:hover,
-nav ul li a[href="contato.html"]:hover,
-nav ul li a[href="denuncie.html"]:hover,
-nav ul li a[href="quemsomos.html"]:focus, 
-nav ul li a[href="contato.html"]:focus,
-nav ul li a[href="denuncie.html"]:focus{
+.listamenu:hover,
+.listamenu:focus{
 	background: rgba(0, 0, 0, 0.357);
 	transition: all .3s ease-in-out;
 }
 
-nav ul li a:focus {
+.listamenu:focus {
 	color: white;
 }
 
-nav ul li a:not(:only-child)::after {
-	padding-left: 4px;
-	content: ' ▾';
-}
-
-nav ul li a[href="quemsomos.html"]{
+.listamenu[href="quemsomos.html"]{
     margin-left: 800px;
 }
 
-nav ul li a[href="quemsomos.html"], 
-nav ul li a[href="contato.html"], 
-nav ul li a[href="denuncie.html"]{
+.listamenu[href="quemsomos.html"], 
+.listamenu[href="contato.html"], 
+.listamenu[href="denuncie.html"]{
     margin-top: 30px;
-}
-
-footer {
-	color: #555;
-	font-size:12px;
-	margin-top:5em;
-	text-align:center;
-}
-
-footer a {
-	color:#0090ea00;
-	text-decoration:none;
 }
 
 .logo{
 	width: 80px;
-	margin-top: 10px;
+	margin-top: 15px;
+	margin-left: 20px;
 }
 	
 .container{
@@ -104,3 +84,94 @@ footer a {
 }
 	
 
+
+
+
+footer{
+	margin-top: 150px;
+    width: 100%;
+    height: 250px;
+    color: white;
+    background-color: rgb(0, 68, 114);
+    background-position: bottom;
+    float: left;
+}
+
+footer p{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(1, 36, 59);
+	background-position: bottom;
+}
+
+.icone{
+    width: 25px;
+    margin: 15px;
+    right: 0;
+}
+
+.btn_social { 
+	width: 300px;
+	float:right; 
+	display:flex; 
+    margin: 20px 85px 0 0;
+
+}
+
+.btn_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+	margin-top: 114px;
+}
+
+.btn_social ul li  {
+	position:relative; 
+	background:rgb(0,49,82); 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.btn_social ul li a  { 
+	width:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#E3AC1B; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:rgb(0,49,82); }
+
+.logoPe{
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 70px;
+}

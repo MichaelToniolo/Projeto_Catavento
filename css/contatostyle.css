@@ -74,7 +74,7 @@ textarea {
     min-height: 100px;
 }
 
-input[type="submit"] {
+.btnenviar {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -85,7 +85,7 @@ input[type="submit"] {
     margin-bottom: 10px;
 }
 
-input[type="submit"]:hover {
+.btnenviar:hover {
     background-color: #45a049;
 }
 
