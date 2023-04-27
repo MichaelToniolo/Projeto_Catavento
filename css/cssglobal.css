@@ -21,12 +21,6 @@ body{
     z-index:1;
 }
 
-.menu::after {
-	display: block;
-	content: '';
-	clear: both;
-}
-
 .itensmenu {
 	padding: 0;
 	margin: 0;
@@ -45,7 +39,7 @@ body{
 	padding: 1rem 2rem;
 	border-top: 2px solid transparent;
 	border-bottom: 2px solid transparent;
-	
+	font-weight: bold
 }
 
 .listamenu:hover,
@@ -175,3 +169,157 @@ footer p{
 	margin-left: 50px;
 	margin-top: 70px;
 }
+
+.menuzin{
+	display: none;
+}
+
+@media(max-width: 1360px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 700px;
+	}
+}
+
+@media(max-width: 1260px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 600px;
+	}
+}
+
+@media(max-width: 1155px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 500px;
+	}
+}
+
+@media(max-width: 1055px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 400px;
+	}
+}
+
+@media(max-width: 955px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 300px;
+	}
+}
+
+@media(max-width: 855px){
+	.listamenu[href="quemsomos.html"]{
+		margin-left: 170px;
+	}
+}
+
+
+/* @media(max-width: 900px){
+
+
+
+
+	.header{
+		width: 100%;
+		display: block;
+		position: fixed;
+		background-position: center;
+		background-attachment:fixed; 
+		z-index: 1;
+	}
+	
+	.sidebar{
+		position: fixed;
+		width: 320px;
+		margin-left: 20px;
+		height: 100%;
+		background: rgb(0,49,82);
+		transition: all .5s ease;
+		margin-top: 0;
+	}
+	
+	.sidebar .head{
+		font-size: 28px;
+		color: white;
+		line-height: 70px;
+		text-align: center;
+		background: rgb(0, 97, 161);
+		user-select: none;   
+	}
+	
+	.sidebar a{
+		text-decoration: none;
+		display: block;
+		height: 65px;
+		width: 100%;
+		color: white;
+		line-height: 65px;
+		padding-left: 30px;
+		box-sizing: border-box;
+		border-bottom: 1px solid black;
+		border-top: 1px solid rgba(255,255,255,.1);
+		border-left: 5px solid transparent;
+		transition: all .5s ease;
+	}
+	
+	a.active{
+		font-weight: bold;
+		border-left: 5px solid #E3AC1B;
+		color: #c49318;
+	}
+	
+	a:hover{
+		border-left: 5px solid #E3AC1B;
+		color: #c49318;
+	}
+	
+	.sidebar a i{
+		font-size: 23px;
+		margin-right: 16px;
+	}
+	
+	.sidebar a span{
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	
+	#check{
+		display: none;
+	}
+	
+	label #btn, label #cancelar{
+		position: absolute;
+		cursor: pointer;
+		color: white;
+		border-radius: 5px;
+		border: 1px solid rgb(0,49,82);
+		margin: 44px 30px;
+		font-size: 28px;
+		background: rgb(0,49,82);
+		height: 45px;
+		width: 45px;     
+		text-align: center;
+		line-height: 45px;
+		transition: all .5s ease;
+		position: fixed;
+	}
+	
+	label #cancelar{
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	#check:checked ~ .sidebar{
+		left: 0;
+	}
+	
+	#check:checked ~ label #btn{
+		margin-left: 325px;
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	#check:checked ~ label #cancelar{
+		margin-left: 325px;
+		opacity: 1;
+		visibility: visible;
+	}
+	
+} */

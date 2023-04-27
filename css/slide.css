@@ -127,6 +127,7 @@ img {
 .btn5{
   background-color: rgb(0, 153, 8);
 }
+
 .btn{ 
   color: #fff;
   cursor: pointer;
@@ -158,4 +159,11 @@ img {
 .image{
   width: 100%;
   
+}
+
+@media(max-width: 1360px){
+	.bolinha{
+    margin-left: 41%;
+    margin-top: 54%;
+  }
 }
