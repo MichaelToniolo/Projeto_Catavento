@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .team-member {
+    flex-basis: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  #pequeno{
+    width: 50px; /* define a largura da imagem */
+    height: auto; /* ajusta a altura proporcionalmente */
+  }
