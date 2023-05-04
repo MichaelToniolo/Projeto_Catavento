@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="./css/slide.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/cssglobal.css">
-        <link rel="stylesheet" href="./css/acessibilidade_voz.css">
         <title>JEIA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -53,30 +52,27 @@
             <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
     </header>
-    <div id="texto">
-        <div id="leitura_alta">
-            <p>LEITURA EM VOZ ALTA</p>
-            <button id="toggle-button">ON</button>
 
-        </div>
     <div class="conteudo">
         <section class="page-section" id="info" > 
             <div>
               <h3><p class="txt" id="texinfo">JEIA</p></h3>
               <div class="blocotexto">
                 <p class="paragrafo">
-                    Bem Vindo ao <b>JEIA</b>, Juizado Especializado da Infância e da Adolescência.
-                    Nós fomos criados para atender a necessidade da erradicação do trabalho infantil 
-                    e da aprendizagem como meio de garantir ao adolescente ingresso adequado no mercado de trabalho. 
-                    O <b>JEIA</b> é parte integrante do Comitê Regional de Erradicação do Trabalho e estamos 
-                    comprometidos em garantir um futuro melhor para nossas crianças e adolescentes.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptas maxime iure cupiditate 
+                    quisquam doloremque porro voluptates reprehenderit eum, enim voluptatibus pariatur? Eaque delectus adipisci 
+                    nostrum eveniet distinctio officiis dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                    earum autem architecto nisi inventore consequuntur expedita nulla natus eum perspiciatis laudantium maxime veritatis
+                    illo officia commodi, soluta minima sed omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+                    dolor placeat incidunt harum sit, quam quisquam at error iusto natus tenetur quibusdam culpa voluptatibus fugiat
+                    molestias repellat magnam vero soluta.
                 </p>
                 <hr>
               </div>
            </div>
           </section>
     </div>
-    </div>
+
     <footer>
         <a href="index.html" ><img src="./img/logo.png" class="logoPe" ></a>
         <nav class="btn_social">
@@ -90,36 +86,51 @@
         </nav>
         <p>© 2023 Copyright - TI 27</p>
     </footer>
-    <!-- script acessibilidade de voz -->
-    <script src="./js/acessibilidade_voz.js"></script>
+
 <!-- Script JS do Slide -->
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace("active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        }
+<script>
+     let slideIndex = 1;
+     showSlides(slideIndex);
+    
+    
+    
+     function plusSlides(n) {
+     showSlides(slideIndex += n);
+     }
+    
+    
+    
+     function currentSlide(n) {
+     showSlides(slideIndex = n);
+     }
+    
+    
+    
+     function showSlides(n) {
+     let i;
+     let slides = document.getElementsByClassName("mySlides");
+     let dots = document.getElementsByClassName("dot");
+     if (n > slides.length) {
+     slideIndex = 1
+     }
+     if (n < 1) {
+     slideIndex = slides.length
+     }
+     for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+     }
+     for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace("active", "");
+     }
+     slides[slideIndex-1].style.display = "block";
+     dots[slideIndex-1].className += " active";
+    }
+    
+    
+    
+     setInterval(function() {
+     plusSlides(1);
+    }, 5000);
     </script>
     </body>
 </html>
