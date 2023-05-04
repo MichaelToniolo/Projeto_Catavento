@@ -1,13 +1,19 @@
+header{
+  margin-bottom: 20%;
+   
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    margin-top: auto;
     padding: 0;
+    background: url(../img/backgroundquemsomos.jpg);
+    width: auto;
+    height: auto;
   }
-  
-  header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px;
+
+  #ab{
+    margin-top: 14%;
   }
   
   .team-members {
@@ -16,6 +22,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #fff;
   }
   
   .team-member {
@@ -30,6 +37,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
+    margin-top: 250px;
   }
   
   .team-member h2 {
@@ -41,4 +49,6 @@ body {
     font-size: 16px;
     color: #777;
   }
+
+  
   

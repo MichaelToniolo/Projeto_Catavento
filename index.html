@@ -7,11 +7,43 @@
         <link rel="stylesheet" href="./css/slide.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/cssglobal.css">
-        <link rel="stylesheet" href="./css/acessibilidade_voz.css">
+        <!-- <link rel="stylesheet" href="./css/acessibilidade_voz.css"> -->
         <title>JEIA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+
+         <!-- <header class="menuzin">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-lg fa-bars" id="btn"></i>
+                <i class="fa fa-lg fa-times" id="cancelar"></i>
+            </label>
+            <div class="sidebar">
+                <header class="head">Projeto Final</header>
+                <a href="#" class="active">
+                    <i class="fa fa-question-circle"></i>
+                    <span>Quem sou eu?</span>
+                </a>
+                <a href="formacao.html">
+                    <i class="fa fa-graduation-cap"></i>
+                    <span>Formações</span>
+                </a>
+                <a href="experiencia.html">
+                    <i class="fa fa-book"></i>
+                    <span>Experiências</span>
+                </a>
+                <a href="projeto.html">
+                    <i class="fa fa-file"></i>
+                    <span>Projetos</span>
+                </a>
+                <a href="contato.html">
+                    <i class="fa fa-envelope"></i>
+                    <span>Contato</span>
+                </a>
+            </div>
+        </header> -->
+
         <nav class="menu">
             <ul class="itensmenu">
                 <li><a href="index.html" ><img src="./img/logo.png" class="logo" ></a></li>
@@ -57,8 +89,8 @@
         <div id="leitura_alta">
             <p>LEITURA EM VOZ ALTA</p>
             <button id="toggle-button">ON</button>
-
         </div>
+    </div>
     <div class="conteudo">
         <section class="page-section" id="info" > 
             <div>
@@ -92,34 +124,41 @@
     </footer>
     <!-- script acessibilidade de voz -->
     <script src="./js/acessibilidade_voz.js"></script>
+    
 <!-- Script JS do Slide -->
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);
-
         function plusSlides(n) {
-        showSlides(slideIndex += n);
+            showSlides(slideIndex += n);
         }
 
         function currentSlide(n) {
-        showSlides(slideIndex = n);
+            showSlides(slideIndex = n);
         }
 
         function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+            slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace("active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        }
+        setInterval(function() {
+            plusSlides(1);
+        }, 3000);
     </script>
     </body>
 </html>

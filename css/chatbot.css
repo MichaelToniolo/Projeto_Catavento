@@ -1,0 +1,28 @@
+.chatbot{
+    margin: 1%;
+    margin-top: 48.6%;
+    text-align: center;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    z-index: 999;
+}
+
+.chatbot button{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 36, 59);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.chatbot img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
