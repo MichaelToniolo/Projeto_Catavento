@@ -1,33 +1,34 @@
-/* #body2 {
-    width: 1150px;
-    height: 780px;
+#body2 {
+    width: 90%;
+    height: 80%;
     justify-content: center;
     margin-left: 125px; 
     padding-top: 5px;
-    /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */ 
-
-
-#formulario {
-    height: 350px;
-    width: 650px;
+}
+/* #formulario {
+    height: 60%;
+    width: 60%;
     padding: 5px;
     float: left;
-    margin-top: 100px;
+    margin-top:70px ;
+} */
+#formulario {
+    height: 60%;
+    width: 60%;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: auto;
+ 
 }
-
-#maps {
-    margin-top: 120px;
+ #mapa {
+    /* margin-top: 120px; */
     width: 400px;
     height: 300px;
     padding: 10px;
-    float: right;
-}
-
-#maps ul{
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-}
+    width: 100%;
+    height: 75%;
+} 
 
 #maps img{
     margin-right: 10px;
@@ -43,7 +44,6 @@
     padding: 3px;
 
 }
-
 
 /* Estilos para o formulário */
 form {
