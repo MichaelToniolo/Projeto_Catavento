@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/acessibilidade_voz.css">
     <link rel="stylesheet" href="./css/chatbot.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/rodarodaJequiti.js"></script>
 </head>
 <body>
     <div class="chatbot"><button class="btnchatbot"><img src="./img/thomaz.jpeg"></button></div>
@@ -18,17 +19,19 @@
         <a href="#quemsomos" id="principal" class="skip">pular para conteudo principal</a>
     <nav class="menu">
         <ul class="itensmenu">
-            <li><a href="index.html" ><img src="./img/logo.png" alt="logo para home" class="logo"></a></li>
+            <li><a href="index.html">
+                <img src="./img/logo.png" alt="logo para home" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()">
+            </a></li>
             <div class="botoes">
             <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
             <li><a href="contato.html" class="listamenu">Contato</a></li>
             <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
         </ul>
     </nav>
-    <div id="texto">
+    <!-- <div id="texto">
         <div id="leitura_alta">
             <h4>LEITURA EM VOZ ALTA</h4>
-            <button id="toggle-button">ON</button>
+            <button id="toggle-button">ON</button> -->
     </div>
 </header>
     <main>
