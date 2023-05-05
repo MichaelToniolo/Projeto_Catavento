@@ -10,7 +10,6 @@ body {
     font-size: small;
     background: url(../img/backgroundquemsomos.jpg) ;
 }
-
 footer{
     margin-top: 0.5%;
 }
@@ -49,29 +48,6 @@ hr{
     border: solid thin #006dd3bd;
 }
 
-figure a img{
-    width: 37px;
-    height: 36px;
-}
-
-#logo{
-    width: 70px;
-    height: 70px;
-    position: relative;
-    float: left;
-}
-
-#borda{
-    box-sizing: border-box;
-    background-color: #fef;
-    height: 20px;padding-top: 10px;
-    width:auto;margin-top: -8px;
-    border-bottom: #997 solid 1px;
-    text-align: end;
-    padding-right: 12px;
-    margin-bottom: -1px;
-}
-
 #main{
     width:auto;
     background-color:#fff;
@@ -98,10 +74,6 @@ figure a img{
     position:sticky;
     opacity:0.95;
     height: 70px;
-}
-
-.logo{
-    width: 80px;
 }
 
 ._{
