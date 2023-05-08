@@ -127,7 +127,7 @@ footer nav ul li{
 	width: 300px;
 	float:right; 
 	display:flex; 
-    margin: 20px 85px 0 0;
+    margin: 20px -41px 2px 0px;
 
 }
 
@@ -136,7 +136,7 @@ footer nav ul li{
 	margin:auto; 
 	float:left; 
 	display:block; 
-	margin-top: 114px;
+	margin: 182px 12px 1px -45px;
 }
 
 .btn_social ul li  {
