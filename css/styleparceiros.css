@@ -1,20 +1,20 @@
-header{
-  margin-bottom: 20%;
+ /* header{
+
+ 
+  }  */
+  
    
-}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     margin-top: auto;
     padding: 0;
-    background: url(../img/backgroundquemsomos.jpg);
-    width: auto;
-    height: auto;
+     width: auto;
+    height: auto; 
   }
 
-  #ab{
-    margin-top: 14%;
-  }
+  
   
   .team-members {
     display: flex;
@@ -31,7 +31,7 @@ body {
     text-align: center;
   }
   
-  .team-member img {
+   .team-member img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -39,7 +39,7 @@ body {
     margin-bottom: 20px;
     margin-top: 250px;
   }
-  
+   
   .team-member h2 {
     font-size: 20px;
     margin-bottom: 10px;
