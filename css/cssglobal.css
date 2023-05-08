@@ -217,15 +217,14 @@ footer nav ul li{
 }
 
 /* ACESSIBILIDADE_VOZ */
-
 #leitura_alta{
-	margin-top: 20px;
-	width: 90px;
-	height: 110px;
-	border: 1px solid;
-	text-align: center;
+	/* margin-top: 30%; */
+	margin-bottom: -20%;
+	
+	margin-left: 5px;
 	position: fixed;
-	color: red;
-	z-index: 999;
-	opacity: 70%;
+	z-index: 9999;
+	/* opacity: 60%; */
+	
   }
+  
