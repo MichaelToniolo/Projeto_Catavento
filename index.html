@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/slide.css">
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="icon" type="image/x-icon" href="./img/logo.png">
         <link rel="stylesheet" href="./css/cssglobal.css">
         <script src="./js/rodarodaJequiti.js"></script>
         <!-- <link rel="stylesheet" href="./css/acessibilidade_voz.css"> -->
@@ -47,7 +48,7 @@
 
         <nav class="menu">
             <ul class="itensmenu">
-                <li><a href="index.html" ><img src="./img/logo.png" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()" ></a></li>
+                <li><a href="index.html" ><img src="./img/logo.png" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()"></a></li>
                 <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
                 <li><a href="contato.html" class="listamenu">Contato</a></li>
                 <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
@@ -55,24 +56,69 @@
         </nav>
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <img src="./img/teste.jpg" class="image">
-                <input class="btn1 btn" type="submit" value="SAIBA MAIS" id="btn">
+                <div class="texto">
+                    <h1>Título do Blog 1</h1>
+                    <h3>
+                        Resumo do Blog Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores tenetur eveniet commodi molestiae, corporis quaerat minus, explicabo 
+                        dolore expedita repellendus beatae porro distinctio hic magni facilis, fugiat 
+                        maiores. Minima, saepe!
+                    </h3>
+                </div>
+                <img src="./img/imagen1.png" class="image">
+                <a href="https://www.childfundbrasil.org.br/blog/voce-sabe-o-que-e-trabalho-infantil_9/" target="_blank"><input class="btn1 btn" type="submit" value="SAIBA MAIS" id="btn"></a>
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste2.png" class="image">
-                <input class="btn2 btn" type="submit" value="SAIBA MAIS" id="btn">
+                <div class="texto">
+                    <h1>Título do Blog 2</h1>
+                    <h3>
+                        Resumo do Blog Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores tenetur eveniet commodi molestiae, corporis quaerat minus, explicabo 
+                        dolore expedita repellendus beatae porro distinctio hic magni facilis, fugiat 
+                        maiores. Minima, saepe!
+                    </h3>
+                </div>
+                <img src="./img/imagen2.png" class="image">
+                <a href="https://fnpeti.org.br/" target="_blank"><input class="btn2 btn" type="submit" value="SAIBA MAIS" id="btn"></a>
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste3.jpg" class="image">
-                <input class="btn3 btn" type="submit" value="SAIBA MAIS" id="btn">
+                <div class="texto">
+                    <h1>Título do Blog 3</h1>
+                    <h3>
+                        Resumo do Blog Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores tenetur eveniet commodi molestiae, corporis quaerat minus, explicabo 
+                        dolore expedita repellendus beatae porro distinctio hic magni facilis, fugiat 
+                        maiores. Minima, saepe!
+                    </h3>
+                </div>
+                <img src="./img/imagen3.png" class="image">
+                <a href="https://livredetrabalhoinfantil.org.br/trabalho-infantil/consequencias/#:~:text=Al%C3%A9m%20de%20muitas%20vezes%20reproduzir,m%C3%A1quinas%20e%20animais%20no%20meio" target="_blank"><input class="btn3 btn" type="submit" value="SAIBA MAIS" id="btn"></a>
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste4.jpg" class="image">
-                <input class="btn4 btn" type="submit" value="SAIBA MAIS" id="btn">
+                <div class="texto">
+                    <h1>Título do Blog 4</h1>
+                    <h3>
+                        Resumo do Blog Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores tenetur eveniet commodi molestiae, corporis quaerat minus, explicabo 
+                        dolore expedita repellendus beatae porro distinctio hic magni facilis, fugiat 
+                        maiores. Minima, saepe!
+                    </h3>
+                </div>
+                <img src="./img/imagen4.png" class="image">
+                <a href="https://www.acorde.org.br/como-combater-o-trabalho-infantil" target="_blank"><input class="btn4 btn" type="submit" value="SAIBA MAIS" id="btn"></a>
             </div>
             <div class="mySlides fade">
-                <img src="./img/teste.jpg" class="image">
-                <input class="btn5 btn" type="submit" value="SAIBA MAIS" id="btn">
+                <div class="texto">
+                    <h1>Título do Blog 5</h1>
+                    <h3>
+                        Resumo do Blog Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Dolores tenetur eveniet commodi molestiae, corporis quaerat minus, explicabo 
+                        dolore expedita repellendus beatae porro distinctio hic magni facilis, fugiat 
+                        maiores. Minima, saepe!
+                    </h3>
+                </div>
+                <img src="./img/imagen5.png" class="image">
+                <a href="//www.acorde.org.br/como-combater-o-trabalho-infantil" target="_blank"><input class="btn5 btn" type="submit" value="SAIBA MAIS" id="btn"></a>
             </div>
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
@@ -86,50 +132,42 @@
             <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
     </header>
+    
     <div id="texto">
         <div id="leitura_alta">
-            <p>LEITURA EM VOZ ALTA</p>
-            <button id="toggle-button">ON</button>
+        
+            <img id="imagem_micro" src="./img/acessibilidade/microfone_som.png" alt="" onclick="microfone_Imagem()">       
+            
+        </div>
+        <div class="conteudo">
+           
+            <section class="page-section" id="info" > 
+                <div class="bloco">
+                    <h3><p class="txt" id="texinfo">JEIA</p></h3>
+                    <div class="blocotexto">
+                        <p class="paragrafo">
+                            Bem Vindo ao <b>JEIA</b>, Juizado Especializado da Infância e da Adolescência.
+                            Nós fomos criados para atender a necessidade da erradicação do trabalho infantil 
+                            e da aprendizagem como meio de garantir ao adolescente ingresso adequado no mercado de trabalho. 
+                            O <b>JEIA</b> é parte integrante do Comitê Regional de Erradicação do Trabalho e estamos 
+                            comprometidos em garantir um futuro melhor para nossas crianças e adolescentes.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
-    <div class="conteudo">
-        <section class="page-section" id="info" > 
-            <div>
-              <h3><p class="txt" id="texinfo">JEIA</p></h3>
-              <div class="blocotexto">
-                <p class="paragrafo">
-                    Bem Vindo ao <b>JEIA</b>, Juizado Especializado da Infância e da Adolescência.
-                    Nós fomos criados para atender a necessidade da erradicação do trabalho infantil 
-                    e da aprendizagem como meio de garantir ao adolescente ingresso adequado no mercado de trabalho. 
-                    O <b>JEIA</b> é parte integrante do Comitê Regional de Erradicação do Trabalho e estamos 
-                    comprometidos em garantir um futuro melhor para nossas crianças e adolescentes.
-                </p>
-                <hr>
-              </div>
-           </div>
-          </section>
-    </div>
-    </div>
     <footer>
-        <a href="index.html" ><img src="./img/logo.png" class="logoPe" ></a> 
+        <a href="index.html" ><img src="./img/logo.png" class="logoPe" ></a>
         <nav class="btn_social">
-
+            
             <ul>
                 <li><a href="#" target="_blank" title="facebook"><i class="icon icon-facebook"></i></a><img class="icone" src="img/facebook.png"></li>
                 <li><a href="#" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a><img class="icone" src="img/instagram.png"></li>
                 <li><a href="#" target="_blank" title="youtube"><i class="icon icon-whatsapp"></i></a><img class="icone" src="img/linkedin.png"></li>
                 <li><a href="#" target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a><img class="icone" src="img/whats.png"></li>
             </ul>
-        </nav>
-        <nav id = "pag">
-            <ul>
-                <li><a href="contato.html">Contatos</a></li>
-                <li><a href="quemsomos.html">quem Somos</a></li>
-                <li><a href="equipe.html">Equipe</a></li>
-                <li><a href="parcerias.html">Parcerias</a></li>
-               <button id="Btndenuncie"> <a  href="denuncie.html">Denuncie</a></button>
-            </ul>
-           
         </nav>
         <p>© 2023 Copyright - TI 27</p>
     </footer>

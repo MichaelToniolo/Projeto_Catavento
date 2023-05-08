@@ -86,7 +86,7 @@ img {
 }
 
 .active, .dot:hover {
-  background-color: #7c0303;
+  background-color: #b0b0b0;
 }
 
 .active{
@@ -112,20 +112,43 @@ img {
 .btn1{
   background:rgb(255, 200, 0);
 }
+.btn1:hover{
+  background-color:rgb(223, 175, 0);
+  transition: all 0.5s;
+}
+
+
 .btn2{
   background-color: rgb(147, 1, 1);
 }
+.btn2:hover{
+  background-color:rgb(101, 0, 0);
+  transition: all 0.5s;
+}
+
 
 .btn3{
   background-color: rgb(0, 111, 145);
+}
+.btn3:hover{
+  background-color:rgb(0, 83, 109);
+  transition: all 0.5s;
 }
 
 .btn4{
   background-color: rgb(255, 128, 0);
 }
+.btn4:hover{
+  background-color:rgb(188, 94, 0);
+  transition: all 0.5s;
+}
 
 .btn5{
   background-color: rgb(1, 106, 6);
+}
+.btn5:hover{
+  background-color:rgb(0, 67, 3);
+  transition: all 0.5s;
 }
 
 .btn{ 
@@ -148,12 +171,6 @@ img {
   font-family:Montserrat, sans-serif;
 }
 
-
-.btn:hover{
-  background-color:rgb(188, 164, 4); 
-  transition: all 0.5s;
-}
-
 .slide{
 	position: absolute;
 	z-index: -1;
@@ -169,4 +186,21 @@ img {
     margin-left: 41%;
     margin-top: 54%;
   }
+}
+
+
+h1{
+  font-weight: bold;
+}
+
+h3{
+  font-weight: lighter;
+}
+.texto{
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  margin-top: 230px;
+  margin-left: 415px;
 }

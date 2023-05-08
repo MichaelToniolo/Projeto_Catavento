@@ -1,27 +1,9 @@
-#toggle-button {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#toggle-button.off {
-    background-color: red;
-    
-}
-
 #leitura_alta{
-  margin-top: 20px;
-  width: 90px;
-  height: 110px;
-  border: 1px solid;
-  text-align: center;
+  margin-top: 30%;
+  margin-left: 5px;
   position: fixed;
-  color: red;
-  z-index: 999;
+  z-index: 9999;
   opacity: 70%;
-
-  
 }
+
+/*#3AD3A9*/

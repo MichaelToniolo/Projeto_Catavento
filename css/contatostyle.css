@@ -1,42 +1,24 @@
-/* #body2 {
-    width: 1150px;
-    height: 780px;
+#body2 {
+    width: 90%;
+    height: 80%;
     justify-content: center;
-    margin-left: 125px; 
     padding-top: 5px;
-    /* deixar essa margin por enquando depois colocar um h1 com padding pra concertar */ 
-
-
-#formulario {
-    height: 350px;
-    width: 650px;
-    padding: 5px;
-    float: left;
-    margin-top: 100px;
 }
-
-#maps {
-    margin-top: 120px;
+#formulario {
+    height: 60%;
+    width: 80%;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-right:25px;
+    margin-bottom: -75px;
+}
+ #mapa{
     width: 400px;
     height: 300px;
-    padding: 10px;
-    float: right;
-}
-
-#maps ul{
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-}
-
-#maps img{
-    margin-right: 10px;
-}
-
-#mapa{
+    width: 100%;
     margin-top: 30px;
-    height: 200px;
-}
+} 
 
 .Icon {
     /*imagens */
@@ -44,14 +26,15 @@
 
 }
 
-
 /* Estilos para o formulário */
 form {
     margin: 20px auto;
     width: 80%;
-    max-width: 500px;
     font-family: Arial, sans-serif;
-}
+    max-width: 500px;
+    margin: 20px auto;
+    margin-left: 125px;
+} 
 
 label {
     display: block;
@@ -89,15 +72,34 @@ textarea {
     background-color: #45a049;
 }
 
-/* Estilos para as mensagens de erro */
-/* input:invalid,
-textarea:invalid {
-    border-color: #d50000;
-} */
 
-input:valid,
+/* input:valid,
 textarea:valid {
     border-color: #cccccc;
+ CSS DO BUTTON ANTIGO 
+} */
+#button1 {
+	box-shadow: 0px 1px 3px 3px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:16px;
+	border:2px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	padding:9px 33px;
+	text-decoration:none;
+	text-shadow:0px 2px 39px #283966;
+}
+#button1:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+#button1:active {
+	position:relative;
+	top:1px;
 }
 
 input:invalid+span,
@@ -118,3 +120,26 @@ textarea:valid+span {
 textarea[type="text"] {
     border-color: #d50000;
 }
+#IMG{
+    height: 350px;
+    width: 65%;
+    float: right;
+    position: relative;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    margin-top: -395px;
+    border: solid 1px black;
+    margin-right: -325px;
+}
+iframe{
+    height:80%;
+    border:solid 1px;
+    border-color:black
+    }
+    /*bloco para redimencionmento da pagina*/
+    @media screen and (max-width: 50%) {
+        .IMG{
+          display: none;
+        }
+    }
+    
