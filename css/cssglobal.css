@@ -218,14 +218,10 @@ footer nav ul li{
 }
 
 /* ACESSIBILIDADE_VOZ */
-#leitura_alta{
-	/* margin-top: 30%; */
-	margin-bottom: -20%;
+#imagem_micro{
+	margin-left: 1320px;
+    margin-right: 10px;
+    position: absolute;
+	cursor: pointer;
 	
-	margin-left: 5px;
-	position: fixed;
-	z-index: 9999;
-	/* opacity: 60%; */
-	
-  }
-  
+}
