@@ -1,70 +1,204 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/slide.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/cssglobal.css">
+        <script src="./js/rodarodaJequiti.js"></script>
   <title>Equipe</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Equipe Projeto Catavento</h1>
-  </header>
+  <script>
+    const imagem = document.querySelector('img');
+imagem.addEventListener('mouseenter', () => {
+  imagem.style.transform = 'rotateY(180deg)';
+});
+imagem.addEventListener('mouseleave', () => {
+  imagem.style.transform = 'none';
+});
+
+  </script>
+  <nav class="menu">    
+    <ul class="itensmenu">
+        <li><a href="index.html" ><img src="./img/logo.png" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()" ></a></li>
+        <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
+        <li><a href="contato.html" class="listamenu">Contato</a></li>
+        <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
+    </ul>
+</nav>
+<div class="corpo" id="1">
   <section class="team-members">
     <div class="team-member">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
       <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
       <img src="./img/pedro.jpg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Pedro Viana</h2>
-      <p>Programador</p>
-      <p>Feito a página da equipe</p>
+      <p>Desenvolvedor</p>
+      <p>Feito a "Página da equipe"</p>      
     </div>
     <div class="team-member">
-      <img src="./img/calvo.jpeg" alt="Guilherme">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/calvo.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Guilherme</h2>
-      <p>Programador</p>
-      <p>Feito a página principal</p>
+      <p>Desenvolvedor</p>
+      <p>Feito a "Página Principal"</p>      
     </div>
     <div class="team-member">
-      <img src="./img/airon.jpg" alt="Airon">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/airon.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Airon</h2>
-      <p>Programador</p>
-      <p>Feito a página "Entrar em contato"</p>
+      <p>Desenvolvedor</p>
+      <p>Feito a página "Entrar em contato"</p>      
     </div>
     <div class="team-member">
-      <img src="./img/membro4.jpg" alt="Thiago"> 
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/thiago.jpg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Thiago</h2>
-      <p>Programador</p>
-      <p>Feito a página "Quem Somos"</p>
+      <p>Desenvolvedor</p>
+      <p>Feito a página "Quem Somos"</p>      
     </div>
     <div class="team-member">
-      <img src="./img/otavio.jpeg" alt="Gustavo">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/otavio.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Otávio</h2>
-      <p>Programador</p>
-      <p>Descrição do Gustavo</p>
+      <p>Desenvolvedor</p>
+      <p>Blogger</p>      
     </div>
     <div class="team-member">
-      <img src="./img/gustavo.jpg" alt="Otávio">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/gustavo.jpg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Gustavo</h2>
-      <p>Programador</p>
-      <p>Feito a página de denúncia</p>
+      <p>Desenvolvedor</p>
+      <p>Feito a "Página de denúncia"</p>      
     </div>
     <div class="team-member">
-      <img src="./img/breno.jpg" alt="Breno">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/breno.jpg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Breno</h2>
       <p>Designer</p>
-      <p>Realizado a logo</p>
+      <p>Realizado a logo</p>      
     </div>
     <div class="team-member">
-      <img src="./img/thomaz.jpeg" alt="Thomaz">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/thomaz.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
       <h2>Thomaz</h2>
-      <p>Programador</p>
-      <p>Descrição do Thomaz</p>
+      <p>Desenvolvedor</p>
+      <p>.</p>      
     </div>
     <div class="team-member">
-      <img src="./img/daniel.jpeg" alt="Daniel">
-      <h2>Daniel</h2>
-      <p>Programador</p>
-      <p>Feito a página de parcerias</p>
-      <p></p>
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/daniel.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
     </div>
-  </section>
-</body>
-</html>
+  </div>
+  <br><br><br><br>
+      <h2>Daniel</h2>
+      <p>Desenvolvedor</p>
+      <p>Feito a "Página de parcerias"</p>      
+    </div>
+    <div class="team-member">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+      <!-- <img src="membro1.jpg" alt="Pedro Viana"> -->
+      <img src="./img/jorge.jpeg" alt="Pedro Viana">
+      </div>
+      <div class="back">
+        <a href="https://www.linkedin.com/in/pedro-viana-66a6b1231/"><img src="./img/linkedin.png" alt="" id="pequeno"></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+      <h2>Jorge</h2>
+      <p>Designer</p>
+      <p>.</p>      
+    </div>
+    
+    
+    
