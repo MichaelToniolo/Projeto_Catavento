@@ -10,7 +10,8 @@ body{
 	color: black;
 	margin-bottom: 250px;
 	background-image: url(../img/backgroundquemsomos.jpg);
-	font-size: 17px;
+	font-size: 20px;
+	
 }
 
 
@@ -127,7 +128,7 @@ footer nav ul li{
 	width: 300px;
 	float:right; 
 	display:flex; 
-    margin: 20px -41px 2px 0px;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -187,7 +188,7 @@ footer nav ul li{
 
   /* CHATBOT */
   
-.chatbot{
+  .chatbot{
     margin: 1%;
     margin-top: 48.6%;
     text-align: center;
@@ -215,30 +216,6 @@ footer nav ul li{
     height: 85px;
     border-radius: 50%;
 }
-
-#ChatBox{
-	z-index: -1;
-	position: absolute;
-	top: 15%;
-	left: 80%;
-	float: left;
-	text-align: center;
-	color: black;
-	font-weight: 600;
-	font-size: 1.4em;
-	padding-left: 30%;
-	padding-right: 30%;
-	padding-top: 15%;
-	padding-bottom: 20%;
-	max-height: 20px;
-	white-space: nowrap;
-	width: fit-content;
-	height: 30px;
-	background-color: rgb(255, 255, 255);
-	border: solid 1px black;
-	border-radius: 5%;
-}
-
 
 /* ACESSIBILIDADE_VOZ */
 #leitura_alta{
