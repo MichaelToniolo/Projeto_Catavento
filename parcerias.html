@@ -4,21 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title>Parcerias</title>
-  <link rel="stylesheet" href="./css/styleparceiros.css">
-  <link rel="stylesheet" href="./css/cssglobal.css">
+  <link rel="stylesheet" href="./css/cssglobal.css"> 
+  <link rel="stylesheet" href="./css/styleparceiros.css"> 
+  <link rel="icon" type="image/x-icon" href="./img/logo.png">
+  <script src="./js/rodarodaJequiti.js"></script>
 </head>
 
 <body>
+  <div class="chatbot">
+    <button class="btnchatbot">
+      <img src="./img/thomaz.jpeg">
+    </button>
+    <div id="ChatBox"></div>
+  </div>
   <header>
-    <nav class="menu menuCont">
-      <ul class="itensmenu">
-        <li><a href="index.html"><img src="./img/logo.png" class="logo"></a></li>
-        <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
-        <li><a href="contato.html" class="listamenu">Contato</a></li>
-        <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
-      </ul>
+    <nav class="menuCont">
+        <ul class="itensmenu">
+            <li><a href="index.html"><img src="./img/logo.png" alt="logo para home" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()"></a></li>
+            <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
+            <li><a href="contato.html" class="listamenu">Contato</a></li>
+            <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
+
   <div id="geral">
     
     <div id="ab">
@@ -48,12 +57,7 @@
           <p>Entidade Formadora de Aprendizagem</p>
           <p>Educação</p>
         </div>
-        <div class="team-member">
-          <img src="./img/chatgpt.webp" alt="ChatGpt">
-          <h2>ChatGpt</h2>
-          <p>Cargo do ChatGpt</p>
-          <p>Não precisar estudar</p>
-        </div>
+       
       </section>
     </div>
     <footer>
