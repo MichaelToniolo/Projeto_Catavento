@@ -19,11 +19,70 @@ body {
   .team-member {
     flex-basis: 300px;
     padding: 20px;
-    text-align: center;   
+    text-align: center;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    padding-top: 5px;
+    transition: transform 2.3s ease;
   }
+
+  .team-member1 {
+    flex-basis: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #34db42;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    padding-top: 5px;
+    transition: transform 2.3s ease;
+  }
+  .team-member2 {
+    flex-basis: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #db3434;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    padding-top: 5px;
+    transition: transform 2.3s ease;
+  }
+
+  .team-member:hover{
+    transform: rotateY(180deg);
+  }
+
+  .team-member1:hover{
+    transform: rotateY(180deg);
+  }
+
+  .team-member2:hover{
+    transform: rotateY(180deg);
+  }  
   
 
   .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .team-member1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .team-member2 img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -35,15 +94,44 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  .team-member1 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .team-member2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
   
   .team-member p {
     font-size: 16px;
     color: #777;
   }
 
-  .corpo{
+  .team-member1 p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .team-member2 p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .titulo{
     background-color: #fff;
     margin-top: 150px;
+    perspective: 1000px;
+    display: inline-block;
+    margin-top: 0px;            
+  }
+  h1{
+    text-align: center;
+  }
+  .corpo{
+    background-color: #fff;
     perspective: 1000px;
     display: inline-block;
     
@@ -71,7 +159,7 @@ body {
     height: 150px;
   }
   
-  .flip-container:hover .flipper {
+  .team-member:hover .flipper {
     transform: rotateY(180deg);
   }
   
@@ -88,6 +176,19 @@ body {
   .back {
     transform: rotateY(180deg);
   }
-  
-  
+  #a{
+    width:auto;
+    height: fit-content;
+  }
+  #dev{
+    color: #3498db;
+  }
+  #designer{
+    color:red
+  }
+
+  #blogger{
+    color:rgb(0, 255, 76)
+  }
+    
   
