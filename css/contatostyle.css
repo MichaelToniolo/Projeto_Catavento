@@ -1,3 +1,8 @@
+body{
+    margin: auto;
+    background-image: url(../img/backgroundquemsomos.png);
+}
+
 #body2 {
     /* width: 90%;
     height: 80%; */
@@ -5,9 +10,9 @@
     background-color: #fff;
     
 }
-body{
-    background-color: #fff;
-    margin: auto;
+#Mapa1{
+    background-color:#fff ;
+    margin-bottom: -20px;
 }
 #formulario {
     height: 60%;
@@ -123,14 +128,18 @@ textarea[type="text"] {
 }
 #IMG{
     height: 350px;
-    width: 65%;
+    width: 20%;
     float: right;
     position: relative;
-    margin-left: 45px;
+    margin-right: 80px;
     margin-bottom: 30px;
     margin-top: -415px;
-    border: solid 1px black;
-    margin-right: -270px;
+   
+}
+/* img da div acima */
+#catacriança{
+width: 300px;
+height: 345px;
 }
 iframe{
     border:solid 1px;
