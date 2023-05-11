@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -6,16 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./css/contatostyle.css"> 
         <link rel="stylesheet" href="./css/cssglobal.css">
-        <title></title>
+        <script src="./js/rodarodaJequiti.js"></script>
+        <title>Contatos</title>
         <body>
-            <nav class="menu">
+            <header>
+          <nav class="menu menuCont">
                  <ul class="itensmenu">
-                    <li><a href="index.html" ><img src="./img/logo.png" class="logo" ></a></li>
+                    <li><a href="index.html" ><img src="./img/logo.png" class="logo" id="rotate2D" onmouseenter="rotateDIV()" onmouseleave="stopRotate()"></a></li>
                     <li><a href="quemsomos.html" class="listamenu">Quem somos</a></li>
                     <li><a href="contato.html" class="listamenu">Contato</a></li>
                     <li><a href="denuncie.html" class="listamenu">Denuncie</a></li>
                 </ul>
             </nav>
+        </header>
             <div id="body2">
                 <div id ="formulario"><!--essa div pega todo formulario -->
                     <form action="mailto:seu-email@seu-servidor.com" method="post" enctype="text/plain">
@@ -55,5 +58,3 @@
         </footer>
     </body>
 </html>
- 
-   

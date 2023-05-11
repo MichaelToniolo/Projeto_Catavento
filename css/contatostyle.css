@@ -1,25 +1,29 @@
 #body2 {
-    width: 90%;
-    height: 80%;
+    /* width: 90%;
+    height: 80%; */
     justify-content: center;
-    padding-top: 5px;
+    background-color: #fff;
+    
+}
+body{
+    background-color: #fff;
+    margin: auto;
 }
 #formulario {
     height: 60%;
     width: 80%;
     padding: 5px;
     display: inline-block;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin-right:25px;
-    margin-bottom: -75px;
+    /* margin-bottom: -75px; */
 }
  #mapa{
-    width: 400px;
+    width: 85%;
     height: 300px;
-    width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-left: 125px;
 } 
-
 .Icon {
     /*imagens */
     padding: 3px;
@@ -79,24 +83,21 @@ textarea:valid {
  CSS DO BUTTON ANTIGO 
 } */
 #button1 {
-	box-shadow: 0px 1px 3px 3px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-	border-radius:16px;
-	border:2px solid #4e6096;
+	background-color:#dbdbdb;
+	border-radius:8px;
+	border:1px solid #fffaff;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#333333;
 	font-family:Arial;
-	font-size:10px;
-	padding:9px 33px;
+	font-size:17px;
+	padding:10px 21px;
 	text-decoration:none;
-	text-shadow:0px 2px 39px #283966;
+	text-shadow:0px 1px 0px #ffffff;
 }
-#button1:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
-}
+/* #button1:hover {
+	background-color:#f0f0f0;
+} */
 #button1:active {
 	position:relative;
 	top:1px;
@@ -127,12 +128,11 @@ textarea[type="text"] {
     position: relative;
     margin-left: 45px;
     margin-bottom: 30px;
-    margin-top: -395px;
+    margin-top: -415px;
     border: solid 1px black;
-    margin-right: -325px;
+    margin-right: -270px;
 }
 iframe{
-    height:80%;
     border:solid 1px;
     border-color:black
     }
@@ -142,4 +142,3 @@ iframe{
           display: none;
         }
     }
-    
