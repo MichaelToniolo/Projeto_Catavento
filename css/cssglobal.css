@@ -4,22 +4,27 @@ body{
 	font-family:Montserrat, sans-serif;
 }
 
-
-.menuCont{
-	font-size: 15px;
-	margin: auto;
-	width: 100%;
-    z-index:1;
-	height: 142px;
-}
-
-
 .menu {
 	margin: auto;
 	width: 100%;
 	background: #0090ea00;
-    z-index:1;
-	position: absolute;
+    position: absolute;
+	z-index: 1;
+}
+
+.menuCont{
+	width: 100%;
+	height: 140px;
+	margin: auto;
+	font-size: 15px;
+	z-index: 1;
+	position: relative;
+}
+
+.menu::after {
+	display: block;
+	content: '';
+	clear: both;
 }
 
 .itensmenu {
@@ -75,6 +80,8 @@ body{
 	position: relative;
 }
 	
+
+
 
 footer{
 	margin-top: 15px;
