@@ -9,7 +9,7 @@
     }
     function startRotate()
     {
-    n=n+1
+    n=n-1
     x.style.transform="rotate(" + n + "deg)"
     x.style.webkitTransform="rotate(" + n + "deg)"
     x.style.OTransform="rotate(" + n + "deg)"
