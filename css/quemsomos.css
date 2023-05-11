@@ -13,6 +13,11 @@ body {
     background: url(../img/backgroundquemsomos.png);
     width: auto;
 }
+
+header{
+    height: 20px;
+}
+
 footer{
     margin-top: 0.5%;
 }
