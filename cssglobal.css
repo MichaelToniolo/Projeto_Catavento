@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+body{
+	font-family:Montserrat, sans-serif;
+}
+
+
+.menuCont{
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+	color: black;
+	margin-bottom: 250px;
+	background-image: url(../img/backgroundquemsomos.jpg);
+	font-size: 17px;
+	
+}
+
+
+.menu {
+	margin: auto;
+	width: 100%;
+	background: #0090ea00;
+    z-index:1;
+}
+
+.menu::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.itensmenu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.itensmenu li {
+	float: left;
+	position: relative;
+}
+
+.listamenu {
+	display: block;
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	
+}
+
+.listamenu:hover,
+.listamenu:focus{
+	background: rgba(0, 0, 0, 0.357);
+	transition: all .3s ease-in-out;
+}
+
+.listamenu:focus {
+	color: white;
+}
+
+.listamenu[href="quemsomos.html"]{
+    margin-left: 800px;
+}
+
+.listamenu[href="quemsomos.html"], 
+.listamenu[href="contato.html"], 
+.listamenu[href="denuncie.html"]{
+    margin-top: 40px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.logo{
+	width: 80px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+	
+.container{
+	position: relative;
+}
+	
+.menu{
+	position: absolute;
+	z-index: 1;
+}
+	
+
+
+
+
+footer{
+	margin-top: 15px;
+    width: 100%;
+    height: 314px;
+    color: white;
+    background-color: rgb(0, 68, 114);
+    background-position: bottom;
+    float: left;
+}
+
+footer p{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(1, 36, 59);
+	background-position: bottom;
+	margin: -11px 0px 0px 0px;
+}
+footer nav ul li{
+	margin: 0px 0px 0px 0px;
+	padding:6px 1px 0px 0px;;
+	list-style: none;
+	text-align: left;
+}
+
+.icone{
+    width: 25px;
+    margin: 15px;
+    right: 0;
+}
+
+.btn_social { 
+	width: 300px;
+	float:right; 
+	display:flex; 
+    margin: 20px 0px 20px 0px;
+
+}
+
+.btn_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+	margin: 182px 12px 1px -45px;
+}
+
+.btn_social ul li  {
+	position:relative; 
+	background:rgb(0,49,82); 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.btn_social ul li a  { 
+	width:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#E3AC1B; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:rgb(0,49,82); }
+
+.logoPe{
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+  /* CHATBOT */
+  
+.chatbot{
+    margin: 1%;
+    margin-top: 48.6%;
+    text-align: center;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    z-index: 999;
+}
+
+.chatbot button{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 36, 59);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.chatbot img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+#ChatBox{
+	z-index: -1;
+	position: absolute;
+	top: 15%;
+	left: 80%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.4em;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 15%;
+	padding-bottom: 20%;
+	max-height: 20px;
+	white-space: nowrap;
+	width: fit-content;
+	height: 30px;
+	background-color: rgb(0, 68, 114);
+	border: solid 5px rgb(1, 36, 59);
+	border-radius: 5%;
+}
+
+/* ACESSIBILIDADE_VOZ */
+#imagem_micro{
+	margin-left: 1320px;
+    margin-right: 10px;
+    position: absolute;
+	cursor: pointer;
+	
+}
