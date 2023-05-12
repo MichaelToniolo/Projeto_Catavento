@@ -4,28 +4,20 @@ body{
 	font-family:Montserrat, sans-serif;
 }
 
-
-.menuCont{
-	box-shadow:0 3px 15px rgba(0,0,0,.15);
-	color: black;
-	margin-bottom: 250px;
-	background-image: url(../img/backgroundquemsomos.jpg);
-	font-size: 17px;
-	
-}
-
-
 .menu {
 	margin: auto;
 	width: 100%;
-	background: #0090ea00;
     z-index:1;
+	position: absolute;
 }
 
-.menu::after {
-	display: block;
-	content: '';
-	clear: both;
+
+.menuCont{
+	font-size: 15px;
+	width: 100%;
+	height: 140px;
+	z-index: 1;
+	position: relative;
 }
 
 .itensmenu {
@@ -73,8 +65,8 @@ body{
 
 .logo{
 	width: 80px;
-	margin-top: 15px;
-	margin-left: 20px;
+	margin-top: 35px;
+	margin-left: 35px;
 }
 	
 .container{
@@ -92,25 +84,26 @@ body{
 
 footer{
 	margin-top: 15%;
+	padding-top: 25px;
     width: 100%;
-    height: 370px;
+    height: 314px;
     color: white;
     background-color: rgb(0, 68, 114);
     background-position: bottom;
-   
+    float: left;
 }
 
 footer p{
     float: left;
     padding-bottom: 4%;
-    padding-top: 4%;
+    padding-top: 3%;
     text-align: center;
     width: 100%;
     color: white;
     background-color: rgb(1, 36, 59);
     background-position: bottom;
-	margin-top: 65px;
-    height: 100px;
+    margin: -8% 0% 15% 0%;
+    height: 88px;
 }
 footer nav ul li{
 	margin: 0px 0px 0px 0px;
@@ -119,27 +112,23 @@ footer nav ul li{
 	text-align: left;
 }
 footer article{
-	margin: 10px 18px -253px 35px;
+	margin: 10px 18px -253px 34px;
 	width: 150px;
 	text-align: center;
 	font-size: small;
 
 
 }
-
 #pelink ul li a{
 	text-decoration: none;
 	list-style: none;
 	color: aliceblue;
-	width: 500px;
-	margin: 50% 0 0 65%;
-	padding: 10px;
-	position: relative;
+	margin: 0 0 0 50%;
+	
 }
 
 .container_footer{
 	margin-top: 15px;
-	
 }
 
 .icone{
@@ -152,7 +141,7 @@ footer article{
 	width: 300px;
 	float:right; 
 	display:flex; 
-    margin: 100px 0px -77px 75px;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -160,9 +149,10 @@ footer article{
 	
     width: auto;
     margin: auto;
-    float: right;
+    float: left;
     display: block;
-    margin: -85px -100px -40px -15px;
+    margin: -140px -92px 85px -22px;
+    margin-top: 5px;
 }
 
 .btn_social ul li  {
@@ -207,7 +197,7 @@ footer article{
 
 .logoPe{
 	width: 113px;
-	margin-left: 55px;
+	margin-left: 41px;
 	margin-top: 25px;
 }
 
@@ -242,9 +232,33 @@ footer article{
     border-radius: 50%;
 }
 
+#ChatBox{
+	z-index: -1;
+	position: absolute;
+	top: 15%;
+	left: 80%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.4em;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 15%;
+	padding-bottom: 20%;
+	max-height: 20px;
+	white-space: nowrap;
+	width: fit-content;
+	height: 30px;
+	background-color: rgb(0, 68, 114);
+	border: solid 5px rgb(1, 36, 59);
+	border-radius: 5%;
+}
+
 /* ACESSIBILIDADE_VOZ */
 #imagem_micro{
-    margin-right: auto;
+	margin-left: 1320px;
+    margin-right: 10px;
     position: absolute;
 	cursor: pointer;
 	
@@ -252,23 +266,7 @@ footer article{
 
 .logoPe2{
 	float: right;
-    width: 113px;
-	margin: -155px 16px -1px -1px;
+    width: 100px;
+    margin-left: 50;
+    margin-top: -143px;
 }
-
-.pezin{
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 50px;
-	width: 500px;
-}
-
-.pezin:hover{
-	color:#E3AC1B;
-	transition: all .3s ease-in-out;
-}
-
-/* .linha_vertical{
-	height: 500px;
-	border-left: 2px solid;
-} */
