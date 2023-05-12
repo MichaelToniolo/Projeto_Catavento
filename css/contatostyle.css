@@ -1,18 +1,18 @@
 body{
     margin: auto;
+    /* background-image: url(../img/backgroundquemsomos.png); */
 }
-
-
 #body2 {
     /* width: 90%;
     height: 80%; */
     justify-content: center;
     background-color: #fff;
+    margin-top: -35%;
     
 }
 #Mapa1{
     background-color:#fff ;
-    margin-bottom: -20px;
+    margin-bottom: -15%; 
 }
 #formulario {
     height: 60%;
