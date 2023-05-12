@@ -13,14 +13,6 @@ body {
     background: url(../img/backgroundquemsomos.png);
     width: auto;
 }
-
-header{
-    height: 20px;
-}
-
-footer{
-    margin-top: 0.5%;
-}
  
 h1{
     color: rgb(0, 68, 114);
@@ -39,12 +31,10 @@ h2{
     width: 300px;
     position: relative;
     margin-top: -8px;
-    /* margin-left: 240px; */
     margin-left: 14.9%;
 }
 
 h3{
-    /* width: 800px; */
     width: 60%;
     text-align: justify;
     margin-left: auto;
@@ -57,13 +47,6 @@ p{
     text-align: center;
     font-weight: bolder;
 }
-
-/* h2+p:first-line{
-    font-size: 1.17em;
-    font-variant: small-caps;
-    font-weight: bolder;
-    font-style: italic;
-} */
 
 hr{
     border: solid thin rgb(0, 68, 114);
@@ -86,19 +69,8 @@ hr{
     opacity: 1;
     height: auto;
     position: relative;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     margin-top: 10%;
 }
-
-/* .navbar {
-    width: 100%;
-    background: #006dd3bd;
-    color:#000;
-    position:sticky;
-    opacity:0.95;
-    height: 70px;
-} */
 
 ._{
     width:auto; 
@@ -106,8 +78,7 @@ hr{
     margin-right: auto;
     background-color:#fff;
     opacity: 1;
-    height:30px;
-    margin-bottom:-33px;
+    height: 250px;
 }
 
 iframe{
@@ -117,7 +88,6 @@ iframe{
     width: 800px;
     height: 300px;
     border: solid 3px rgba(0, 103, 172, 0.672);
-    /* border: 10px; */
 }
 
 aside{
