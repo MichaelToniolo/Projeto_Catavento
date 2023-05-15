@@ -1,0 +1,138 @@
+footer{
+	margin-top: 15%;
+    width: 100%;
+    height: 370px;
+    color: white;
+    background-color: rgb(0, 68, 114);
+    background-position: bottom;
+   
+}
+
+footer p{
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(1, 36, 59);
+    background-position: bottom;
+	margin-top: 65px;
+    height: 100px;
+}
+footer nav ul li{
+	margin: 0px 0px 0px 0px;
+	padding:6px 1px 0px 0px;;
+	list-style: none;
+	text-align: left;
+}
+footer article{
+	margin: 10px 18px -253px 35px;
+	width: 150px;
+	text-align: center;
+	font-size: small;
+
+
+}
+
+#pelink ul li a{
+	text-decoration: none;
+	list-style: none;
+	color: aliceblue;
+	width: 500px;
+	margin: 50% 0 0 65%;
+	padding: 10px;
+	position: relative;
+}
+
+.container_footer{
+	margin-top: 15px;
+	
+}
+
+.icone{
+    width: 25px;
+    margin: 15px;
+    right: 0;
+}
+
+.btn_social { 
+	width: 300px;
+	float:right; 
+	display:flex; 
+    margin: 100px 0px -77px 75px;
+
+}
+
+.btn_social ul  { 
+	
+    width: auto;
+    margin: auto;
+    float: right;
+    display: block;
+    margin: -85px -100px -40px -15px;
+}
+
+.btn_social ul li  {
+	position:relative; 
+	background:rgb(0,49,82); 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.btn_social ul li a  { 
+	width:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#E3AC1B; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:rgb(0,49,82); }
+
+.logoPe{
+	width: 113px;
+	margin-left: 55px;
+	margin-top: 25px;
+}
+
+.logoPe2{
+	float: right;
+    width: 113px;
+	margin: -155px 16px -1px -1px;
+}
+
+.pezin{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 50px;
+	width: 500px;
+}
+
+.pezin:hover{
+	color:#E3AC1B;
+	transition: all .3s ease-in-out;
+}
