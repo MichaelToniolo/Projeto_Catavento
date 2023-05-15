@@ -50,9 +50,9 @@
         
         //Intervalo entre mensagens \\ 1000-1seg
 
-        var inter = setInterval(function() { Texto(); }, 2000);
+        var inter = setInterval(function() { Texto(); }, 5000);
 
-        var inter = setInterval(function() { Magica(); }, 2000);
+        var inter = setInterval(function() { Magica(); }, 5000);
 
         //Carrega função ao carregar a página
 
