@@ -45,7 +45,7 @@ hr{
 
 #main{
     width:auto;
-    background-color:#fff;
+    /* background-color:#fff; */
     opacity: 1;
     height: auto;
     position: relative;
@@ -54,7 +54,7 @@ hr{
 
 #quemsomos{
     width:auto;
-    background-color:#fff;
+    /* background-color:#fff; */
     opacity: 1;
     height: auto;
     position: relative;
@@ -65,7 +65,7 @@ hr{
     width:auto; 
     margin-left: auto;
     margin-right: auto;
-    background-color:#fff;
+    /* background-color:#fff; */
     position: relative;
     height:300px;
     margin-bottom:-150px;

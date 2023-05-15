@@ -217,10 +217,11 @@ footer article{
 
 /* ACESSIBILIDADE_VOZ */
 #imagem_micro{
-	margin-left: 1320px;
-    margin-right: 10px;
-    position: absolute;
+	margin-left: 96%;
+    margin-right: 3%;
+    position: fixed;
 	cursor: pointer;
-	
+	top: 90%;
+	/* margin-top: 90%; */
 }
 
