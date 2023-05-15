@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./css/parceria.css"> 
   <link rel="icon" type="image/x-icon" href="./img/logo.png">
   <script src="./js/rodarodaJequiti.js"></script>
+  <!-- script acessibilidade de voz -->
+  <script src="./js/acessibilidade_voz.js"></script>
 </head>
 
 <body>
@@ -21,7 +23,12 @@
         </ul>
     </nav>
 </header>
-
+<div id="texto">
+  <div id="leitura_alta">
+  
+      <img id="imagem_micro" src="./img/acessibilidade/microfone_som.png" alt="" onclick="microfone_Imagem()">       
+      
+  </div>
   <div id="geral">
     
     <div id="ab">
@@ -51,9 +58,10 @@
           <p>Entidade Formadora de Aprendizagem</p>
           <p>Educação</p>
         </div>
-       
+      
       </section>
     </div>
+  </div>
     <footer>
       <div class="container_footer">
           <nav id="pelink">

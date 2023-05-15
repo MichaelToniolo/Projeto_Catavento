@@ -127,7 +127,7 @@
     text-align: center;
   }
   .corpo{
-    background-color: #fff;
+    /* background-color: #fff; */
     perspective: 1000px;
     display: inline-block;
     
