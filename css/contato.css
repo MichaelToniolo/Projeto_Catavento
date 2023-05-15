@@ -8,26 +8,25 @@ body{
     justify-content: center;
     background-color: #fff;
     margin-top: -35%;
-    
 }
 #Mapa1{
-    background-color:#fff ;
-    margin-bottom: -15%; 
+    background-color: #fff ;
 }
 #formulario {
     height: 60%;
     width: 80%;
     padding: 5px;
     display: inline-block;
-    /* margin-top: 70px; */
+     margin-top: 60px; 
     margin-right:25px;
-    /* margin-bottom: -75px; */
 }
  #mapa{
     width: 85%;
     height: 300px;
-    /* margin-top: 30px; */
+    margin-bottom: -3px;
     margin-left: 125px;
+    border: solid 3px rgba(0, 103, 172, 0.672);
+    border-radius: 15px;
 } 
 .Icon {
     /*imagens */
@@ -137,7 +136,7 @@ textarea[type="text"] {
    
 }
 /* img da div acima */
-#catacriança{
+#catacrianca{
 width: 300px;
 height: 345px;
 }
@@ -151,3 +150,4 @@ iframe{
           display: none;
         }
     }
+   
