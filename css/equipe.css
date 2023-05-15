@@ -36,6 +36,7 @@
     padding: 0px;
     padding-top: 5px;
     transition: transform 2.3s ease;
+    height: 290px;
   }
   .team-member2 {
     flex-basis: 300px;
@@ -48,6 +49,7 @@
     padding: 0px;
     padding-top: 5px;
     transition: transform 2.3s ease;
+    height: 290px;
   }
 
   .team-member:hover{
@@ -126,8 +128,7 @@
   h1{
     text-align: center;
   }
-  .corpo{
-    /* background-color: #fff; */
+  .corpo{    
     perspective: 1000px;
     display: inline-block;
     
@@ -148,7 +149,7 @@
   }
   
   .flipper {
-    transition: transform 0.6s;
+    transition: transform 2.5s;
     transform-style: preserve-3d;
     position: relative;
     width: 200px;
@@ -156,6 +157,14 @@
   }
   
   .team-member:hover .flipper {
+    transform: rotateY(180deg);
+    
+  }
+  .team-member1:hover .flipper {
+    transform: rotateY(180deg);
+    
+  }
+  .team-member2:hover .flipper {
     transform: rotateY(180deg);
     
   }
@@ -183,11 +192,11 @@
     color: #3498db;
   }
   #designer{
-    color:red
+    color:red;
   }
 
   #blogger{
-    color:rgb(0, 255, 76)
+    color:rgb(0, 255, 76);
   }
     
   
