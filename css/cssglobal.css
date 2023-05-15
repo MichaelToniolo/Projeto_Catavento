@@ -122,7 +122,7 @@ footer article{
 	list-style: none;
 	color: aliceblue;
 	margin: 0 0 0 50%;
-	
+	font-weight: bold;
 }
 
 .container_footer{
@@ -210,58 +210,9 @@ footer article{
 	margin-left: -45%;
 }
 
-  /* CHATBOT */
-  
-  .chatbot{
-    margin: 1%;
-    margin-top: 48.6%;
-    text-align: center;
-    position: fixed;
-    color: rgb(0, 0, 0);
-    z-index: 999;
-}
-
-.chatbot button{
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(1, 36, 59);
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.chatbot img{
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-}
-
-#ChatBox{
-	z-index: -1;
-	position: absolute;
-	top: 15%;
-	left: 80%;
-	float: left;
-	text-align: center;
-	color: #fff;
-	font-weight: 600;
-	font-size: 1.4em;
-	padding-left: 30%;
-	padding-right: 30%;
-	padding-top: 15%;
-	padding-bottom: 20%;
-	max-height: 20px;
-	white-space: nowrap;
-	width: fit-content;
-	height: 30px;
-	background-color: rgb(0, 68, 114);
-	border: solid 5px rgb(1, 36, 59);
-	border-radius: 5%;
+#pelink ul li a:hover{
+	color: #E3AC1B;
+	transition: all .3s ease-in-out;
 }
 
 /* ACESSIBILIDADE_VOZ */
