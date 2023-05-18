@@ -167,8 +167,8 @@ footer article{
 }
 
 .btn_social ul li a  { 
-	width:55px; 
-	height: 55px; 
+	width:50px; 
+	line-height:53px; 
 	display:block; 
 	text-decoration:none; 
 	color:#fff; 
