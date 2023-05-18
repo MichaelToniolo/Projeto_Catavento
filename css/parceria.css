@@ -6,11 +6,11 @@ body{
   .team-members {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 20px;
     /* margin-top: 250px; */
     /* margin-top: -300PX; */
-    margin-bottom: 200PX;
+    margin-bottom: -50px;
   }
   
   .team-member {
